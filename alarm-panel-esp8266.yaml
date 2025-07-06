@@ -73,7 +73,7 @@ substitutions:
 packages:
 
   remote_package:
-    url: https://github.com/konnected-io/konnected-esphome
+    url: https://github.com/lk7630/konnected-esphome
     ref: master
     refresh: 5min
     files:
@@ -108,7 +108,7 @@ packages:
       - packages/warning-beep.yaml
 
 dashboard_import:
-  package_import_url: github://konnected-io/konnected-esphome/alarm-panel-esp8266.yaml@master
+  package_import_url: github://lk7630/konnected-esphome/alarm-panel-esp8266.yaml@master
   import_full_config: false
 
 ####
